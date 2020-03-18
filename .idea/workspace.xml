@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d9879f14-aad8-40c0-8921-9e987cfb27ed" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/stock_prices/stock_prices.py" beforeDir="false" afterPath="$PROJECT_DIR$/stock_prices/stock_prices.py" afterDir="false" />
     </list>
@@ -93,7 +92,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1584482346204</updated>
-      <workItem from="1584482348401" duration="6691000" />
+      <workItem from="1584482348401" duration="6945000" />
     </task>
     <task id="LOCAL-00001" summary="Ran `pipenv install`">
       <created>1584482624722</created>
@@ -102,7 +101,14 @@
       <option name="project" value="LOCAL" />
       <updated>1584482624722</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Stock Prices First Pass working">
+      <created>1584501955920</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1584501955920</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -110,12 +116,14 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Ran `pipenv install`" />
-    <option name="LAST_COMMIT_MESSAGE" value="Ran `pipenv install`" />
+    <MESSAGE value="Stock Prices First Pass working" />
+    <option name="LAST_COMMIT_MESSAGE" value="Stock Prices First Pass working" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="891" y="144" key="CommitChangelistDialog2" timestamp="1584482624168">
-      <screen x="0" y="0" width="2560" height="1080" />
+    <state x="368" y="39" key="CommitChangelistDialog2" timestamp="1584501955576">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
+    <state x="368" y="39" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1584501955576" />
     <state x="891" y="144" key="CommitChangelistDialog2/0.0.2560.1080@0.0.2560.1080" timestamp="1584482624168" />
     <state width="1398" height="303" key="GridCell.Tab.0.bottom" timestamp="1584501360965">
       <screen x="0" y="0" width="1440" height="900" />
@@ -153,6 +161,10 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state width="1398" height="303" key="GridCell.Tab.1.right/0.0.1440.900@0.0.1440.900" timestamp="1584501360968" />
+    <state x="320" y="178" key="Vcs.Push.Dialog.v2" timestamp="1584501958075">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="320" y="178" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1584501958075" />
     <state x="385" y="196" width="670" height="676" key="search.everywhere.popup" timestamp="1584501903472">
       <screen x="0" y="0" width="1440" height="900" />
     </state>

@@ -44,19 +44,23 @@ def merge_sort(arr):
 
 
 def find_max_profit(prices):
+    # set Min Value
     min_value = prices[0]
+    # Set the Difference List
     difference = []
+    # Loop through List starting at index 1 and subtract list[i] - list[i - 1]
     for i in range(1, len(prices)):
-
+        # Get Result of Current Price minus Min Value
         result = prices[i] - min_value
-
+        # Set Min Value if it is the new Min Value
         if min_value > prices[i]:
             min_value = prices[i]
+        # Append The Result
         difference.append(result)
-
+    # Sort the Difference List with Merge Sort Algorithm
     sorted_difference = merge_sort(difference)
-
-    return sorted_difference[len(sorted_difference) - 1]
+    # Return the last index of the sorted Array
+    return sorted_difference[-1]
 
 
 if __name__ == '__main__':
