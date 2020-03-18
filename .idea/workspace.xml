@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="d9879f14-aad8-40c0-8921-9e987cfb27ed" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stock_prices/stock_prices.py" beforeDir="false" afterPath="$PROJECT_DIR$/stock_prices/stock_prices.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/recipe_batches/recipe_batches.py" beforeDir="false" afterPath="$PROJECT_DIR$/recipe_batches/recipe_batches.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,8 +29,9 @@
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Color Scheme Font" />
   </component>
-  <component name="RunManager" selected="Python.stock_prices">
+  <component name="RunManager" selected="Python.recipe_batches">
     <configuration name="eating_cookies" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Algorithms" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -45,6 +46,50 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/eating_cookies/eating_cookies.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="recipe_batches" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Algorithms" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/recipe_batches" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/recipe_batches/recipe_batches.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="scratch" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Algorithms" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$APPLICATION_CONFIG_DIR$/scratches" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$APPLICATION_CONFIG_DIR$/scratches/scratch.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -77,6 +122,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.recipe_batches" />
+        <item itemvalue="Python.scratch" />
         <item itemvalue="Python.stock_prices" />
         <item itemvalue="Python.eating_cookies" />
       </list>
@@ -92,7 +139,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1584482346204</updated>
-      <workItem from="1584482348401" duration="6945000" />
+      <workItem from="1584482348401" duration="7723000" />
+      <workItem from="1584535190248" duration="4416000" />
     </task>
     <task id="LOCAL-00001" summary="Ran `pipenv install`">
       <created>1584482624722</created>
@@ -108,7 +156,14 @@
       <option name="project" value="LOCAL" />
       <updated>1584501955920</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Added Comments">
+      <created>1584502198304</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1584502198304</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -117,34 +172,35 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Ran `pipenv install`" />
     <MESSAGE value="Stock Prices First Pass working" />
-    <option name="LAST_COMMIT_MESSAGE" value="Stock Prices First Pass working" />
+    <MESSAGE value="Added Comments" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added Comments" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="368" y="39" key="CommitChangelistDialog2" timestamp="1584501955576">
+    <state x="368" y="39" key="CommitChangelistDialog2" timestamp="1584502197996">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="368" y="39" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1584501955576" />
+    <state x="368" y="39" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1584502197996" />
     <state x="891" y="144" key="CommitChangelistDialog2/0.0.2560.1080@0.0.2560.1080" timestamp="1584482624168" />
-    <state width="1398" height="303" key="GridCell.Tab.0.bottom" timestamp="1584501360965">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state width="2518" height="356" key="GridCell.Tab.0.bottom" timestamp="1584539913288">
+      <screen x="0" y="0" width="2560" height="1080" />
     </state>
     <state width="1398" height="303" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1584501360965" />
-    <state width="2518" height="304" key="GridCell.Tab.0.bottom/0.0.2560.1080@0.0.2560.1080" timestamp="1584495207604" />
-    <state width="1398" height="303" key="GridCell.Tab.0.center" timestamp="1584501360963">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state width="2518" height="356" key="GridCell.Tab.0.bottom/0.0.2560.1080@0.0.2560.1080" timestamp="1584539913288" />
+    <state width="2518" height="356" key="GridCell.Tab.0.center" timestamp="1584539913286">
+      <screen x="0" y="0" width="2560" height="1080" />
     </state>
     <state width="1398" height="303" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1584501360963" />
-    <state width="2518" height="304" key="GridCell.Tab.0.center/0.0.2560.1080@0.0.2560.1080" timestamp="1584495207602" />
-    <state width="1398" height="303" key="GridCell.Tab.0.left" timestamp="1584501360961">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state width="2518" height="356" key="GridCell.Tab.0.center/0.0.2560.1080@0.0.2560.1080" timestamp="1584539913286" />
+    <state width="2518" height="356" key="GridCell.Tab.0.left" timestamp="1584539913285">
+      <screen x="0" y="0" width="2560" height="1080" />
     </state>
     <state width="1398" height="303" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1584501360961" />
-    <state width="2518" height="304" key="GridCell.Tab.0.left/0.0.2560.1080@0.0.2560.1080" timestamp="1584495207601" />
-    <state width="1398" height="303" key="GridCell.Tab.0.right" timestamp="1584501360964">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state width="2518" height="356" key="GridCell.Tab.0.left/0.0.2560.1080@0.0.2560.1080" timestamp="1584539913285" />
+    <state width="2518" height="356" key="GridCell.Tab.0.right" timestamp="1584539913287">
+      <screen x="0" y="0" width="2560" height="1080" />
     </state>
     <state width="1398" height="303" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1584501360964" />
-    <state width="2518" height="304" key="GridCell.Tab.0.right/0.0.2560.1080@0.0.2560.1080" timestamp="1584495207603" />
+    <state width="2518" height="356" key="GridCell.Tab.0.right/0.0.2560.1080@0.0.2560.1080" timestamp="1584539913287" />
     <state width="1398" height="303" key="GridCell.Tab.1.bottom" timestamp="1584501360969">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
@@ -161,17 +217,27 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state width="1398" height="303" key="GridCell.Tab.1.right/0.0.1440.900@0.0.1440.900" timestamp="1584501360968" />
-    <state x="320" y="178" key="Vcs.Push.Dialog.v2" timestamp="1584501958075">
+    <state x="789" y="179" key="SettingsEditor" timestamp="1584535307724">
+      <screen x="0" y="0" width="2560" height="1080" />
+    </state>
+    <state x="789" y="179" key="SettingsEditor/0.0.2560.1080@0.0.2560.1080" timestamp="1584535307724" />
+    <state x="320" y="178" key="Vcs.Push.Dialog.v2" timestamp="1584502200325">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="320" y="178" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1584501958075" />
+    <state x="320" y="178" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1584502200325" />
+    <state x="935" y="372" key="com.intellij.ide.util.TipDialog" timestamp="1584535191301">
+      <screen x="0" y="0" width="2560" height="1080" />
+    </state>
+    <state x="935" y="372" key="com.intellij.ide.util.TipDialog/0.0.2560.1080@0.0.2560.1080" timestamp="1584535191301" />
     <state x="385" y="196" width="670" height="676" key="search.everywhere.popup" timestamp="1584501903472">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="385" y="196" width="670" height="676" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1584501903472" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/Algorithms$stock_prices.coverage" NAME="stock_prices Coverage Results" MODIFIED="1584498077113" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/stock_prices" />
+    <SUITE FILE_PATH="coverage/Algorithms$stock_prices.coverage" NAME="stock_prices Coverage Results" MODIFIED="1584536242789" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/stock_prices" />
+    <SUITE FILE_PATH="coverage/Algorithms$recipe_batches.coverage" NAME="recipe_batches Coverage Results" MODIFIED="1584539893532" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/recipe_batches" />
     <SUITE FILE_PATH="coverage/Algorithms$eating_cookies.coverage" NAME="eating_cookies Coverage Results" MODIFIED="1584483116271" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/eating_cookies" />
+    <SUITE FILE_PATH="coverage/Algorithms$scratch.coverage" NAME="scratch Coverage Results" MODIFIED="1584537567889" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$APPLICATION_CONFIG_DIR$/scratches" />
   </component>
 </project>
